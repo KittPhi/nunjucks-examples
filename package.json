@@ -1,0 +1,14 @@
+{
+  "name": "nunjucks-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KittPhi <Kitt.Phi@gmail.co>",
+  "license": "MIT",
+  "dependencies": {
+    "nunjucks": "^3.2.3"
+  }
+}
