@@ -1,7 +1,7 @@
 var nunjucks = require("nunjucks");
 
 console.log(
-  nunjucks.render("index.njk", {
+  nunjucks.render("hello-world.njk", {
     message: "Hello World!",
   })
 );
