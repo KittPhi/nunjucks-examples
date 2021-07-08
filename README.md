@@ -1,4 +1,4 @@
-# nunjucks-helloworld
+# nunjucks-examples
 
 `node helloworld.js`
 
