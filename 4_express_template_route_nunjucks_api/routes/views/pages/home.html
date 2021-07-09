@@ -1,0 +1,11 @@
+{% extends "../pages/index.html" %} {% block content %}
+<div class="container">
+  <h1>{{home.name}}</h1>
+
+  {% for key, value in home %}
+  <h2>{{key}}: {{value}}</h2>
+  {% endfor %}
+  <br />
+</div>
+<br />
+{% endblock %}
