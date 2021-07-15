@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>{{ page_title }}</title>
+  </head>
+  <body>
+    {% include '_header.njk' %}
+    {% for index in data %}
+      <div class='module'>
+        <h3>{{ index.name }}</h3>
+        <p>{{ index.description }}</p>
+      </div>
+    {% endfor %}
+    <div>
+      {% set foo = "bar" %}
+      {{ foo }}
+    </div>
+    {% include '_footer.njk' %}
+  </body>
+</html>
